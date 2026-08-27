@@ -1,9 +1,23 @@
-// Seleciona os elementos do HTML
-const botao = document.getElementById('btn-ego');
-const mensagem = document.getElementById('mensagem');
+document.addEventListener('DOMContentLoaded', () => {
+    // Lógica para o botão do Rin
+    const btnRin = document.getElementById('btn-rin');
+    const msgRin = document.getElementById('msg-rin');
 
-botao.addEventListener('click', () => {
-    // Frase marcante do Rin Itoshi:
-    mensagem.textContent = "Egoísmo Máximo! 'O futebol é um campo de batalha onde só os fortes sobrevivem.'";
-    mensagem.className = "desperto";
+    if (btnRin && msgRin) {
+        btnRin.addEventListener('click', () => {
+            msgRin.textContent = "Egoísmo Máximo! 'O futebol é um campo de batalha onde só os fortes sobrevivem.'";
+            msgRin.className = "desperto";
+        });
+    }
+
+    // Lógica para o botão do Isagi
+    const btnIsagi = document.getElementById('btn-isagi');
+    const msgIsagi = document.getElementById('msg-isagi');
+
+    if (btnIsagi && msgIsagi) {
+        btnIsagi.addEventListener('click', () => {
+            msgIsagi.textContent = "Metavision Ativado! 'Eu vou devorar esse jogo.'";
+            msgIsagi.className = "desperto";
+        });
+    }
 });
