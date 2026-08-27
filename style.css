@@ -59,3 +59,11 @@ button:hover {
     margin-bottom: 15px;  
     box-shadow: 0 0 10px rgba(0, 180, 216, 0.3);
 }
+
+.creditos {
+    color: #90e0ef;      /* Um azul claro bem bonito */
+    font-size: 1.1rem;   /* Tamanho do texto */
+    font-weight: bold;   /* Deixa em negrito */
+    margin-top: 10px;    /* Afasta um pouco do texto de cima */
+    font-style: italic;  /* Texto de lado (itálico) */
+}
