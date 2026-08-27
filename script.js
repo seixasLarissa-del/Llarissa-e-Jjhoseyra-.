@@ -2,8 +2,8 @@
 const botao = document.getElementById('btn-ego');
 const mensagem = document.getElementById('mensagem');
 
-// Adiciona o evento de clique no botão
 botao.addEventListener('click', () => {
-    mensagem.textContent = "Metavision Ativado! 'Eu vou devorar esse jogo.'";
+    // Frase marcante do Rin Itoshi:
+    mensagem.textContent = "Egoísmo Máximo! 'O futebol é um campo de batalha onde só os fortes sobrevivem.'";
     mensagem.className = "desperto";
 });

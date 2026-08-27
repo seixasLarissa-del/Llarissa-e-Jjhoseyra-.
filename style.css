@@ -52,10 +52,10 @@ button:hover {
 
 .foto-personagem {
     width: 100%;          
-    max-width: 300px;     
-    height: 200px;        
-    object-fit: cover;    
+    max-width: 280px;     /* Ajustado para o formato vertical da capa */
+    height: auto;         /* Mantém a proporção da capa do mangá sem achatar */
     border-radius: 8px;   
     border: 2px solid #00b4d8; 
     margin-bottom: 15px;  
+    box-shadow: 0 0 10px rgba(0, 180, 216, 0.3);
 }
